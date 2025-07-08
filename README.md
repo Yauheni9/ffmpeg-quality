@@ -39,4 +39,5 @@ Build args:
         --extra-cflags="-I${PREFIX}/include" \
         --extra-ldflags="-L${PREFIX}/lib" \
         --extra-libs=-ldl
+	--extra-libs=-lz
 ```
